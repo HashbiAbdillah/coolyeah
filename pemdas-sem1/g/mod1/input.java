@@ -1,4 +1,3 @@
-package mod1;
 import java.util.Scanner;
 
 public class input {
@@ -12,8 +11,7 @@ public class input {
         nilai2 = input.nextInt();
         System.out.print("Masukkan nilai ketiga: ");
         nilai3 = input.nextDouble();
-        hasil = nilai1 + nilai2 + nilai3;
+        hasil = (double)nilai1 + nilai2 + nilai3;
         System.out.println("Hasil penjumlahan: " + hasil);
         }
-        //cari cara buat konversi int ke double
 }

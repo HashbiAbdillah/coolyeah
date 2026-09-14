@@ -1,5 +1,3 @@
-package mod1;
-
 public class variable {
     public static void main(String[] args) {
         int nilai = 10;
