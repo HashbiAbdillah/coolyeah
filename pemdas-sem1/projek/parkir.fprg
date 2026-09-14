@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="parkir"/>
+        <attribute name="authors" value="Hasbi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-10 11:16:18 AM"/>
+        <attribute name="created" value="SGFzYmk7U0hJUk9ORUtPOzIwMjYtMDktMDc7MDQ6NTc6NTEgUE07MjQ2OQ=="/>
+        <attribute name="edited" value="SGFzYmk7U0hJUk9ORUtPOzIwMjYtMDktMTA7MTE6MTY6MTggQU07NTsyNTU2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Durasiblt, tarif" type="Integer" array="False" size=""/>
+            <declare name="durasi" type="Real" array="False" size=""/>
+            <output expression="&quot;parkir berapa jam bos&quot;" newline="True"/>
+            <input variable="Durasi"/>
+            <while expression="Durasi&lt;0">
+                <output expression="&quot;yang bener bos yakali parkir &quot;&amp;Durasi&amp;&quot; jam&quot;" newline="True"/>
+                <input variable="Durasi"/>
+            </while>
+            <if expression="Durasi &gt; Int(Durasi)">
+                <then>
+                    <assign variable="Durasiblt" expression="Int(Durasi) + 1"/>
+                </then>
+                <else>
+                    <assign variable="Durasiblt" expression="Int(Durasi)"/>
+                </else>
+            </if>
+            <if expression="Durasiblt&gt;1">
+                <then>
+                    <assign variable="tarif" expression="3000 +(Durasiblt-1)*1000"/>
+                </then>
+                <else>
+                    <assign variable="tarif" expression="3000"/>
+                </else>
+            </if>
+            <output expression="&quot;total tarif parkir= &quot; &amp; tarif" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
