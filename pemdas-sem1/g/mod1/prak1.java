@@ -19,3 +19,5 @@ public class prak1 {
         System.out.println("Hasil penjumlahan: " + hasilBgi);
     }  
 }
+//Hashbi Abdillah
+//265150600111022

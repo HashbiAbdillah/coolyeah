@@ -17,13 +17,12 @@ public class prak2 {
         biayaBeban = input.nextInt();
         System.out.print("Masukkan ppj: ");
         ppj = input.nextInt();
-        // System.out.printf("%sPLN %s%s%n", kelurahan);
-
+        //Hashbi Abdillah
+        //265150600111022
         totPemakaian = kwhAkhir - kwhAwal;
         tarif = totPemakaian * biayaBeban;
         tarifppj= tarif*ppj/100;
         totTarif= tarif + tarifppj;
-
 
         String  textHeader ="PLN" + kelurahan, header = garisSisi + textHeader + garisSisi, footer="=".repeat(header.length());
 
@@ -36,6 +35,5 @@ public class prak2 {
         System.out.println("Total bayar: " + totTarif);
 
         System.out.printf("%s%n", footer);
-
     }
 }
