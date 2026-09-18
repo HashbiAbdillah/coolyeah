@@ -35,6 +35,5 @@ public class prak2 {
         System.out.println("Total bayar: " + totTarif);
         
         System.out.printf("%s%n", footer);
-        input.close();
     }
 }
