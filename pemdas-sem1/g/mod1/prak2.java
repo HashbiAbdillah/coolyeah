@@ -33,7 +33,8 @@ public class prak2 {
         System.out.println("Tarif listrik: " + tarif);
         System.out.printf("PPJ %d%%: " + tarifppj + "%n", ppj);
         System.out.println("Total bayar: " + totTarif);
-
+        
         System.out.printf("%s%n", footer);
+        input.close();
     }
 }
