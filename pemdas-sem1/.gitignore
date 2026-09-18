@@ -9,6 +9,9 @@
 *.log
 *.tmp
 *.fprg
+*.jpg
+*.jpeg
+*.png
 !assets/*.jpg
 !assets/*.jpeg
 !assets/*.png
