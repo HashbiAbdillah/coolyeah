@@ -7,3 +7,5 @@ public class constAss {
     System.out.println (s + "" + val);
     }
 }
+//Hashbi Abdillah
+//265150600111022

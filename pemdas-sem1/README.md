@@ -10,3 +10,5 @@ ini cateten yang gatau bakal kepake apa kaga
 // %c untuk char
 // %e untuk eksponen
 // %b untuk boolean
+
+- switch case wajib menggunakan break agar case lainnya tidak jalan
