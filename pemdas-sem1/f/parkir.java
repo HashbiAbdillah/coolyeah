@@ -1,12 +1,10 @@
-import java.lang.classfile.instruction.StackInstruction;
 import java.util.Scanner;
 
 public class parkir{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int durasi, jenisKend;
+        int durasi, jenisKend, civitas;
         int tarifMtr = 2000, tarifMbl = 5000, tarifCiv = 2000, tarif = 0;
-        String civitas;
 
         System.out.print("masukan durasi parkir:");
         durasi = input.nextInt();
@@ -24,12 +22,12 @@ public class parkir{
             jenisKend = input.nextInt(); 
         }  
              
-        System.out.print("apakah anda civitas? (y/n):");
-        civitas = input.next();       
-        while (!civitas.equalsIgnoreCase("y") && !civitas.equalsIgnoreCase("n")) {
+        System.out.print("apakah anda civitas? (tidak=0 ya=1):");
+        civitas = input.nextInt();       
+        while (jenisKend != 1 && jenisKend != 2) {
             System.out.println("input tidak valid");
-            System.out.print("apakah anda civitas? (y/n):");
-            civitas = input.next();
+            System.out.print("apakah anda civitas? (0/1):");
+            civitas = input.nextInt();
         }
 
         if (jenisKend == 1) {
@@ -44,7 +42,7 @@ public class parkir{
             tarif = 50000 + tarif;
         }
         
-        if (civitas.equalsIgnoreCase("y")) {
+        if (civitas == 1) {
             tarif = tarifCiv;
         }
         
