@@ -21,7 +21,7 @@ public class parkir{
             System.out.print("masukan jenis kendaraan (1/2):");
             jenisKend = input.nextInt();
         }
-        while (jenisKend != 1 && jenisKend != 2); {
+        while (jenisKend != 1 || jenisKend != 2); {
             System.out.println("jenis kendaraan tidak valid");
             // System.out.print("masukan jenis kendaraan (1/2)");
             // jenisKend = input.nextInt(); 
