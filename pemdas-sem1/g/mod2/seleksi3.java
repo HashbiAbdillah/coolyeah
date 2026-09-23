@@ -5,6 +5,8 @@ public class seleksi3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int uang;
+        //Hashbi Abdillah
+        //265150600111022
         System.out.println("Tipe Mata uang yang tersedia");
         System.out.println("1. Dolar - USA (kurs USD 1 = Rp 56400,-)");
         System.out.println("2. Yen - Jepang (kurs JPY 1 = Rp. 4000,-)");

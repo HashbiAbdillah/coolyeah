@@ -10,7 +10,8 @@ public class seleksi2 {
         if (nilai * 2 < 50) {
             nilai += 10;
         }
-
+        //Hashbi Abdillah
+        //265150600111022
         if (nilai <= 20) {
             System.out.println("Filkom");
             if (nilai % 2 == 1) {

@@ -16,8 +16,8 @@ public class prak1 {
                 System.out.println("masukan nilai panjang");
                 a = in.nextInt();
                 System.out.println("masukan nilai lebar");
-                b = in.nextInt();
-                luas = (a*b);
+                b = in.nextInt(); //Hashbi Abdillah
+                luas = (a*b); //265150600111022
                 keliling = (2 * (a + b)) ;
                 System.out.println("luas = " + (int) luas);
                 System.out.println("keliling = " + (int) keliling);

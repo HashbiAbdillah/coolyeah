@@ -9,8 +9,8 @@ public class prak2 {
         System.out.println("masukan berat badan (kg)");
         bb = in.nextDouble();
         System.out.println("masukan tinggi badan (cm)");
-        tb = in.nextDouble();
-        imt = bb/(tb*tb);
+        tb = in.nextDouble(); //Hashbi Abdillah
+        imt = bb/(tb*tb); //265150600111022
         
         if (imt<=18.5) {
             System.out.println("kurus");

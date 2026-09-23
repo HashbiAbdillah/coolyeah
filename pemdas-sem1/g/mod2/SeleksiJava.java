@@ -12,5 +12,7 @@ public class SeleksiJava {
         else {
             System.out.println("anda gagal");
         }
+        //Hashbi Abdillah
+        //265150600111022
     }
 }
