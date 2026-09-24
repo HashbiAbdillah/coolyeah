@@ -31,6 +31,5 @@ public class prak3 {
         System.out.println("Total upah = " + totupah);
         //Hashbi Abdillah
         //265150600111022
-        in.close();
     }
 }
