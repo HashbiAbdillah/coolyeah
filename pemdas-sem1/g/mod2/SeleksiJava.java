@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class SeleksiJava {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.println("masukan nilai: ");
+        System.out.print("masukan nilai: ");
         int nilai = in.nextInt();
         if (nilai > 60)
             System.out.println("anda lulus");
